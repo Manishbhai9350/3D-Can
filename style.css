@@ -40,7 +40,7 @@ overflow:hidden;
         }
     }
     .line {
-        width: max(90vw,400px);
+        width: min(max(90vw,400px),500px);
         height:3px;
         background: rgb(106, 106, 106);
         position: absolute;
